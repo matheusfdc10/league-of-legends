@@ -12,6 +12,14 @@ export const StyledHeader = styled.header`
         > h1 {
             color: #fff;
         }
+
+        @media (max-width: 535px){
+            margin-left: 15px;
+            
+            > h1 {
+                font-size: 25px;
+            }
+        }
     }
         
     > input {
@@ -25,5 +33,10 @@ export const StyledHeader = styled.header`
         margin: auto;
         font-size: 15px;
         padding-left: 12.5px;
+
+        @media (max-width: 535px){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 `
