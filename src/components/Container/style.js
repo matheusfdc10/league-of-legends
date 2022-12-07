@@ -34,4 +34,16 @@ export const StyledContainer = styled.div`
             cursor: pointer;
         }
     }
+
+    @media (max-width: 411px){
+        img {
+            width: 100px;
+        }
+    }
+
+    @media (max-width: 321px){
+        img {
+            width: 80px;
+        }
+    }
 `
