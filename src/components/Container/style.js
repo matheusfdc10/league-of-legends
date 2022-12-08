@@ -15,7 +15,7 @@ export const StyledContainer = styled.div`
             margin: 10px;
             display: flex;
 
-            > a {
+            > .teste {
                 padding: 12px;
                 border: solid 1px;
                 justify-content: center;
