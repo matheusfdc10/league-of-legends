@@ -19,6 +19,8 @@ export const StyledContainer = styled.div`
                 padding: 12px;
                 border: solid 1px;
                 justify-content: center;
+                text-decoration: none;
+                color: black;
 
                 > span {
                     font-size: 20px;
