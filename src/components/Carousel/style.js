@@ -1,0 +1,48 @@
+import styled from "styled-components";
+
+export const StyledCarousel = styled.div`
+    
+    > h1 {
+        margin: 10px 0;
+    }
+
+    .carousel {
+        cursor: grab;
+        overflow: hidden;
+
+        .inner {
+            display: flex;
+
+            .skin {
+                min-width: 400px;
+                padding: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 12px;
+                    pointer-events: none;
+                }
+
+                span {
+                    font-size: 20px;
+                    margin-top: 5px;
+                    font-weight: bold;
+                }
+
+                @media (max-width: 460px){
+                    min-width: 300px;
+
+                    span {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+        }
+    }
+
+`
