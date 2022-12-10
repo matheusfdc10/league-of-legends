@@ -18,8 +18,8 @@ export const StyledCarousel = styled.div`
                 padding: 8px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 align-items: center;
+
                 img {
                     width: 100%;
                     height: 100%;
@@ -35,6 +35,11 @@ export const StyledCarousel = styled.div`
 
                 @media (max-width: 460px){
                     min-width: 300px;
+
+                    img {
+                        width: 300px;
+                        height: 201px;
+                    }
 
                     span {
                         font-size: 18px;
