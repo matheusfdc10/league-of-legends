@@ -6,6 +6,7 @@ export const StyledHeader = styled.header`
     background-color: #5b50ef;
     display: flex;
     box-shadow: 0px 0px 10px black;
+    z-index: 100;
 
     > div {
         margin-left: 30px;
