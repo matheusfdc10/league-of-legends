@@ -19,7 +19,7 @@ export const StyledChampion = styled.div`
         display: flex;
 
         .type {
-            margin: 20px 10px;
+            margin: 20px;
 
             h4 {
                 margin: 0;
