@@ -1,17 +1,24 @@
 import { StyledHeader } from './style'
+import { Link } from 'react-router-dom'
+import logo from '../../assets/img/logo.png'
 
-export default function Header({ search, setSearch }) {
+export default function Header({ search, setSearch, inputVisible }) {
 
     return(
         <StyledHeader>
             <div>
-                <h1>Campeões</h1>
+                <Link to="/">
+                    <img src={logo}></img>
+                </Link>
             </div>
 
-            <input type="text" placeholder="Buscar"
+            
+            {inputVisible && (
+                <input type="text" placeholder="Buscar"
                 onChange={e => setSearch(e.target.value)}
                 value={search}
-            />
+                />
+            )}
         </StyledHeader>
     )
 }

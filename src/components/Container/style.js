@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
+    margin-top: 100px;
     flex: 1 0 auto;
     padding: 15px;
+
+    @media (max-width: 535px){
+        margin-top: 75px;
+    }
 
     > section {
         display: flex;
@@ -38,6 +43,7 @@ export const StyledContainer = styled.div`
     }
 
     @media (max-width: 411px){
+        margin-top: 75px;
         img {
             width: 100px;
         }

@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const StyledChampion = styled.div`
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    min-height: 100vh;
+    flex: 1 0 auto;
+    margin-top: 100px;
+
+    @media (max-width: 535px){
+        margin-top: 75px;
+    }
 
     > hr {
         margin: 0;
@@ -25,8 +27,6 @@ export const StyledChampion = styled.div`
     
             ul {
                 padding-left: 20px;
-                margin: 0;
-                margin-top: 5px;
             }
         }
 

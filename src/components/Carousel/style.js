@@ -32,6 +32,7 @@ export const StyledCarousel = styled.div`
                     font-size: 20px;
                     margin-top: 5px;
                     font-weight: bold;
+                    text-align: center;
                 }
 
                 @media (max-width: 460px){
