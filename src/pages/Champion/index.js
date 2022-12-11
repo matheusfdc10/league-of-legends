@@ -23,10 +23,28 @@ function Champion() {
             .catch(err => console.log(err))
     }
 
-    // console.log(champion) 
+    console.log(champion) 
     return (
         <StyledChampion>
             <Carousel champion={champion}/>
+            <hr />
+            <div className="information">
+                <div className="type">
+                    <h4>Tipo</h4>
+                    <ul>
+                        {champion.tags?.map(type => {
+                            return (
+                                <li>{type}</li>
+                            )
+                        })}
+                    </ul>
+                </div>
+                <hr />
+                <div className="blurb">
+                    <h4>Sinopse</h4>
+                    <p>{champion.blurb}</p>
+                </div>
+            </div>
         </StyledChampion>
     )
 }

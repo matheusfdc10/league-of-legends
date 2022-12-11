@@ -28,7 +28,7 @@ export default function Carousel({ champion }) {
                         return (
                             <motion.div className="skin" key={key}>
                                 <img src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champion.id}_${skin.num}.jpg`} alt={skin.name} />
-                                <span>{skin.name == 'default' ? champion.name : skin.name}</span>
+                                <span>{skin.name === 'default' ? champion.name : skin.name}</span>
                             </motion.div>
                         )
                     })}

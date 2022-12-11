@@ -4,6 +4,7 @@ export const StyledCarousel = styled.div`
     
     > h1 {
         margin: 10px 0;
+        text-align: center;
     }
 
     .carousel {
