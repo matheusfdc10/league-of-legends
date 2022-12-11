@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledCarousel = styled.div`
     
     > h1 {
-        margin: 10px 0;
+        margin: 10px;
         text-align: center;
     }
 
