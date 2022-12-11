@@ -1,6 +1,6 @@
 import Header from '../../components/Header'
 import Container from '../../components/Container'
-import Footer from '../../components/Footer'
+
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
@@ -29,7 +29,7 @@ function Home() {
     <>
       <Header search={search} setSearch={setSearch} />
       <Container champions={champions} search={search} />
-      <Footer />
+      
     </>
   );
 }
