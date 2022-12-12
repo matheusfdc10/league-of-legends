@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     position: fixed;
     width: 100%;
-    background-color: #5b50ef;
+    background-color: #07121a;
+    /* background-color: #5b50ef; */
     display: flex;
     box-shadow: 0px 0px 10px black;
     z-index: 100;
@@ -13,6 +14,7 @@ export const StyledHeader = styled.header`
         color: white;
 
         > a > img {
+            padding: 10px 0;
             width: 140px;
         }
 

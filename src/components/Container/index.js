@@ -15,7 +15,7 @@ export default function Container({ champions, search }) {
                 }).map(champion => {
                     return (
                         <div key={champion.id}>
-                            <Link to={`champion/${champion.id}`} className='teste'>
+                            <Link to={`champion/${champion.id}`} className='link'>
                             
                                 <img width='145px' src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`} alt={champion.name} />
                                 <span>{champion.name}</span>

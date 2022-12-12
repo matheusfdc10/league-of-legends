@@ -20,12 +20,16 @@ export const StyledContainer = styled.div`
             margin: 10px;
             display: flex;
 
-            > .teste {
+            > .link {
                 padding: 12px;
                 border: solid 1px;
                 justify-content: center;
                 text-decoration: none;
                 color: black;
+
+                > img {
+                    box-shadow: 0px 0px 8px black;
+                }
 
                 > span {
                     font-size: 20px;
