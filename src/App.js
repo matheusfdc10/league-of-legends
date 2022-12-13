@@ -5,30 +5,10 @@ function App() {
  
   return (
     <>
-    <Router />
-    <Footer />
+      <Router />
+      <Footer />
     </>
   );
 }
 
 export default App;
-
-
-
-// function App() {
- 
-//   return (
-//     <>
-//     <Header />
-//       <Router>
-//         <Routes>
-//           <Route path='/' element={<Home />}/>
-//           <Route path='/champion/:id' element={<Champion />}/>
-//         </Routes>
-//       </Router>
-//     <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
